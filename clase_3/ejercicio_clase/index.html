@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tienda Flatlanders</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body ng-app="store" ng-controller="StoreController as store">
+<input type="text" class="form-control" ng-model="store.search" placeholder="Filtro de productos">
+	<div class="list-group">
+		<div ng-repeat="product in store.products | filter:store.search" class="list-group-item" ng-show="!product.soldOut">
+			<h1 ng-class="{{product.class}}">{{product.name}}</h1>
+			<h2>{{product.price | currency:"USD$":0}}</h2>
+			<img ng-src="{{product.img}}">
+			<p>{{product.description | limitTo:product.readmore }} <a href ng-click="product.readmore = 1000;"><span ng-if="product.readmore < 1000">Leer más</span></a>
+			<a href ng-click="product.readmore = 20;"><span ng-if="product.readmore === 1000">Leer menos</span></a></p>
+
+			<button class="btn btn-primary" ng-hide="product.canPurchase">Add to cart</button>
+		</div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
