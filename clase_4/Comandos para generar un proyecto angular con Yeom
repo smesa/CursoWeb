@@ -1,0 +1,6 @@
+Comandos para generar un proyecto angular con Yeoman
+
+1. Para crear el proyecto digitamos en consola "yo angular"
+2. El generador nos comenzara a realizar preguntas de que queremos generar
+	debemos elegir segun lo que quiera cada uno agregar.
+3. El proyecto esta generado - Felicitaciones

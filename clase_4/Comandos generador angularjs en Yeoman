@@ -1,0 +1,27 @@
+Comandos generador angularjs en Yeoman
+
+Route
+Genera un controller y una vista, agrega configuracion de la ruta en app.js
+yo angular:route myroute
+
+Controller
+Genera un controller en la carpeta de scripts/controllers
+yo angular:controller user
+
+Directive
+Genera una directiva en la carpeta scripts/directives
+yo angular:directive myDirective
+
+Filter
+Genera un filtro en la carpeta scripts/filters
+yo angular:filter myFilter
+
+View
+Genera una vista HTML en la carpeta app/views
+yo angular:view user
+
+Service
+Genera un servicio en la carpeta scripts/services
+yo angular:service myService
+
+Tambien puede generar yo angular:factory, yo angular:provider, yo angular:value, y yo angular:constant para otro tipo de servicios

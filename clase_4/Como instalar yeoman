@@ -1,0 +1,29 @@
+Como instalar yeoman
+
+Pre requisitos
+
+- Se debe instalar nodejs
+- Se debe instalar gulp, grunt, grunt-cli, bower
+	1. Abren una consola o terminal
+	2. Si es gnu/linux o mac deben estar como super usuario(SUDO)
+	3. Digitan npm install -g grunt grunt-cli gulp bower
+
+	¿Qué hicimos? el comando npm (node package manager) se conecta a un repositorio de aplicaciones realizadas y registradas en node, lo podemos ver en la pagina npmjs.com para ver todas las librerias disponibles.
+	- Cuando damos npm install, estamos diciendo al gestor de paquetes que nos instale una o varias librerias.
+	- Cuando le damos -g le estamos diciendo que esta libreria quedaría instalada de modo global, no solo para la carpeta en la que estamos posicionados.
+	- grunt, grunt-cli, gulp y bower son librerias
+	- grunt es un automatizador de tareas necesarias para yeoman
+	- gulp tambien es un automatizador de tareas necesario para yeoman
+	- bower es similar al npm(node package manager) un gestor de paquetes
+- Instalamos yeoman
+	1. Abren una consola o terminal
+	2. Si es gnu/linux o mac deben estar como super usuario(SUDO)
+	3. Digitan npm install -g yo
+	* yo es el nombre de la libreria de yeoman en npmjs.com
+
+- Instalamos generador de angularjs para yeoman
+	1. Abren una consola o terminal
+	2. Si es gnu/linux o mac deben estar como super usuario(SUDO)
+	3. Primero se debe instalar el generador Karma(Karma es una libreria para pruebas de test)
+		1. En la consola digitan npm install -g generator-karma
+	4. Digital en consola npm install -g generator-angular
