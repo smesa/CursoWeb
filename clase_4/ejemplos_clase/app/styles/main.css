@@ -1,0 +1,11 @@
+.nav-wrapper > a {
+  padding-left: .5em;
+}
+
+.icon-cart {
+  padding-right: .5em;
+}
+
+.img-product {
+	height:320px !important;
+}
