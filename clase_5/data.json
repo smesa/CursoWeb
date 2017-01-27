@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Pizza de pollo",
+		"pic": "images/pizza-pollo.jpg",
+		"price": 28000
+	},
+	{
+		"name":"Pizza de hawaiana",
+		"pic": "images/pizza-hawaiana.jpg",
+		"price": 25000
+	},
+	{
+		"name":"Pizza de maiz",
+		"pic": "images/pizza-maiz.jpg",
+		"price": 23000
+	},
+	{
+		"name":"Pizza de ranch",
+		"pic": "images/pizza-ranch.jpg",
+		"price": 38000
+	},
+	{
+		"name":"Pizza de vegetales",
+		"pic": "images/pizza-vegetales.jpg",
+		"price": 18000
+	},
+	{
+		"name":"Pizza de carnes",
+		"pic": "images/pizza-carnes.jpg",
+		"price": 28000
+	}
+]
